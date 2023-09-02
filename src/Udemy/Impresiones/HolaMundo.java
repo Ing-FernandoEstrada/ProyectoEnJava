@@ -1,6 +1,4 @@
-package Udemy;
-
-
+package Udemy.Impresiones;
 public class HolaMundo
 {
     //Dentro del metodo main permite ejecutar el proyecto que se vaya a trabajar

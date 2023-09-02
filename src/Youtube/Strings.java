@@ -1,3 +1,5 @@
+package Youtube;
+
 public class Strings {
     public static void main(String[] args) {
         //Los valores de tipo cadena son amplicamente utilizandos
