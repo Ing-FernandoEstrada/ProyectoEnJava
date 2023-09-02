@@ -39,8 +39,6 @@ public class ReglasEnTipos
 
         //Se remomienda no utilizar tildes ni ñ para declarar una variable, metodos, clases
 
-        //int niña = 20;
-
-
+        //int niño = 20;
     }
 }
