@@ -14,7 +14,7 @@ public class CharsYSecuenciasDeEscape
         Character car = new Character('B');
         System.out.println(car);
 
-        //Caracteres de escape
+        //PrimitivosCaracteres de escape
         //\n salto de linea
         System.out.println("Curso de Java SE por Fernando");
         //Es para que fernando salga en pantalla
