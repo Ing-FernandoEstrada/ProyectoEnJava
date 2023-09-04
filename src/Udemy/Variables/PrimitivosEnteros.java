@@ -61,5 +61,6 @@ public class PrimitivosEnteros
         System.out.println("numeroVar3 = " + numeroVar3);
         var numeroVar4 = 9223372036854775807L; //Long
         System.out.println("numeroVar4 = " + numeroVar4);
+
     }
 }
