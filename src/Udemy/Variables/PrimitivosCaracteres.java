@@ -1,8 +1,6 @@
 package Udemy.Variables;
-public class PrimitivosCaracteres
-{
-    public static void main(String[] args)
-    {
+public class PrimitivosCaracteres {
+    public static void main(String[] args) {
         //Pära definir un caracter se utiliza la palabra char
         //Permite un solo caracter
         char caracter1 = 'A';
@@ -38,5 +36,34 @@ public class PrimitivosCaracteres
         System.out.println("Char correspondiente en bytes = " + Character.SIZE);
         System.out.println("Maximo valor  = " + Character.MAX_VALUE);
         System.out.println("Minimo valor  = " + Character.MIN_VALUE);
+
+        //Caracteres especiales
+
+        char espacio = ' ';
+        char espacio2 = '\u0020';
+        //El caracter permite agregar un espacio en blanco
+        System.out.println("Char correspondiente en byte:" + espacio + Character.BYTES);
+
+        char retroceso = '\b';
+        //Lo que hace es retroceder y eleminar el espacio anterior
+        System.out.println("Char correspondiente en byte:" + retroceso + Character.BYTES);
+
+        char tabulador = '\t';
+        //Agrega un espacio de tabulacion
+        System.out.println("Char correspondiente en byte:" + tabulador + Character.BYTES);
+        //Tambien se lo puede utilizar de esta manera
+        System.out.println("Char correspondiente en \t byte:" + tabulador + Character.BYTES);
+
+        char nuevaLinea = '\n';
+        //Permite bajar una linea o dar salto de linea
+        System.out.println("Char correspondiente en byte:" + nuevaLinea + Character.BYTES);
+
+        char retornoCarro = '\r';
+        //Permite tambien bajar de la linea o dar salto de linea
+        System.out.println("Char correspondiente en byte:" + retornoCarro + Character.BYTES);
+
+        //Java tambien permite utilizar de la clase system un salto de linea
+        System.out.println("Char correspondiente en byte:" + System.getProperty("Line.separator") + Character.BYTES);
+        System.out.println("Char correspondiente en byte:" + System.lineSeparator() + Character.BYTES);
     }
 }
