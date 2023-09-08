@@ -27,7 +27,8 @@ public class ConversionDeTipos
 
         //En esos casos también se podria aplicar var
 
-        //Coversiones de tipo primitivos a cadenas
+        //----Coversiones de tipo primitivos a cadenas------
+
         int otroNumeroInt = 100;
         System.out.println("Otro numero Int = " + otroNumeroInt);
 
@@ -63,5 +64,26 @@ public class ConversionDeTipos
 
         otroRealStr = String.valueOf(1.23456f);
         System.out.println("otro real str = " + otroRealStr);
-    }
+
+        // --------------- conversion entre tipo primitivos -----------
+
+        //Convertir un entero a tipo short
+
+        int i = 10000;
+        //En este caso tocaria castear la conversión
+        short s = (short)i;
+        System.out.println("s = " + s);
+        //con el tipo de dato long si se puede
+        long l = i;
+        System.out.println("l = " + l);
+        System.out.println("Valor maximo para short" + Short.MAX_VALUE);
+
+        //El valor char acepta igual valores enteros
+        char b = (char) i;
+        System.out.println("b = " + b);
+
+        //Se puede castear unicamente a tipo de datos numericos
+        float f = (float) i;
+        System.out.println("f = " + f);
+    }   
 }
