@@ -26,5 +26,42 @@ public class ConversionDeTipos
         System.out.println("char = " + charChar);
 
         //En esos casos también se podria aplicar var
+
+        //Coversiones de tipo primitivos a cadenas
+        int otroNumeroInt = 100;
+        System.out.println("Otro numero Int = " + otroNumeroInt);
+
+        //Con la clase wraper permite convertir los números primitivos
+        //Este lo convierte el numero entero a un String
+        String otroNumeroStr = Integer.toString(otroNumeroInt);
+        System.out.println("Otro numero String = " + otroNumeroStr);
+
+        //Otra forma de convertir otro numero a String
+
+        otroNumeroStr = String.valueOf(otroNumeroInt);
+        System.out.println("Otro numero Str = " + otroNumeroStr);
+
+        //De esta manera permite añadir una suma seguido del valor ya ingresado
+
+        otroNumeroStr = String.valueOf(otroNumeroInt + 10);
+        System.out.println("Otro numero Str = " + otroNumeroStr);
+
+        //De esta manera concatena los valores donde no daria el resultado
+        //artimetico bien
+        otroNumeroStr = String.valueOf(otroNumeroStr + 10);
+        System.out.println("Otro numero Str = " + otroNumeroStr);
+
+        //----Convertir un decimal a un String----
+        double otroRealDouble = 1.23456;
+        String otroRealStr = Double.toString(otroRealDouble);
+        System.out.println("Otro real str = " + otroRealStr);
+
+        //Conviritiendo con notación cientifica
+        double otroRealDouble2 = 1.23456e2;
+        String otroRealStr2 = Double.toString(otroRealDouble2);
+        System.out.println("Otro real str = " + otroRealStr2);
+
+        otroRealStr = String.valueOf(1.23456f);
+        System.out.println("otro real str = " + otroRealStr);
     }
 }
