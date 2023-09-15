@@ -1,4 +1,4 @@
-package Udemy.Proyectos;
+package Udemy.Proyectos.ProyectosVariables;
 
 import javax.swing.*;
 
