@@ -5,7 +5,8 @@ public class EjemploStringExtensionArchivo
     public static void main(String[] args)
     {
         String archivo = "alguna_imagen.jpeg";
-        int i = archivo.indexOf(".");
+        //es mejor utilizar last indexOf para capturar la ultima ocurrencia del .
+        int i = archivo.lastIndexOf(".");
 
         //imprimimos la cantidad de caracteres
         System.out.println("archivo = " + archivo.length());
