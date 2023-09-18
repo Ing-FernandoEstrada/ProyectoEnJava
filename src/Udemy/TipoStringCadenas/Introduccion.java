@@ -42,7 +42,6 @@ public class Introduccion
     *String[] split(String patron): Divide la cadena en varias subcadenas utilizando
     el patron indicado como separador
     */
-
     
   }  
 }
