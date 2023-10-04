@@ -10,7 +10,7 @@ public class OperadorInstanceOfTiposGenericos
 
         //De esta manera lo podemos colocar como entero primitivo utilizando valueOf
         //Y esta es la manera correcta de crear una instancia
-        Number num = Integer.valueOf(8); //7
+        Number num = Integer.valueOf(8); //8
 
         //En este caso se puede con todos los tipos de datos primitivos en este caso se hara el ejemplo con el tipo de dato FLoat
         //Se puede tener el tipo de dato generico o real
