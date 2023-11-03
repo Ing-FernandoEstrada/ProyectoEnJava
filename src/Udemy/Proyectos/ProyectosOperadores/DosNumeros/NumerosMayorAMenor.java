@@ -16,6 +16,6 @@ public class NumerosMayorAMenor
         String resultado = (numero1 > numero2) ? numero1 + " es mayor que " + numero2 : numero2 + " es mayor que " + numero1;
 
         //Imprimimos el orden
-        JOptionPane.showMessageDialog(null, "El orden entre " + numero1 + "y " + numero2 + " es: " + "\n" +resultado);
+        JOptionPane.showMessageDialog(null, "El orden entre " + numero1 + " y " + numero2 + " es: " + "\n" +resultado);
     }
 }
