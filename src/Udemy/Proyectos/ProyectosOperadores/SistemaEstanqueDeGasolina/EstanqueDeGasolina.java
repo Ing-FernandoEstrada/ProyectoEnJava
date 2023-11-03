@@ -1,4 +1,4 @@
-package Udemy.Proyectos.ProyectosOperadores.SistemaEstqnqueDeGasolina;
+package Udemy.Proyectos.ProyectosOperadores.SistemaEstanqueDeGasolina;
 
 import javax.swing.*;
 
