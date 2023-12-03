@@ -1,10 +1,26 @@
 package Udemy.FlujosDeControl;
 
+import java.util.Scanner;
+
 public class SentenciaSwithCaseNombreMes
 {
     public static void main(String[] args)
     {
-        int mes = 12;
+        // Para solicitar al usuario que ingrese el mes en la ejecución
+        Scanner scanner = new Scanner(System.in);
+
+        int mes;
+
+        System.out.println("Ingrese el numero del mes");
+        mes = scanner.nextInt();
+
+        if(mes < 1 || mes > 12)
+        {
+            System.out.println("Error: Ingrese el mes comprendido entre 1 y 12");
+            main(args);
+            System.exit(0);
+        }
+
         String nombreMes = null;
 
         //Es importante utilizar el break para que no se salte del resultado que se le esta solicitando que de la respuesta
