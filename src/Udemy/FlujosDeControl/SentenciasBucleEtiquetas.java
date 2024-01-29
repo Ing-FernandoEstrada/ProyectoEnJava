@@ -6,6 +6,7 @@ public class SentenciasBucleEtiquetas
     {
         //En este caso el 2 se sale del ciclo y solo imprime los demas numeros
         //Se esta creando una etiqueta al for que esta encerrando todo
+        System.out.println("Imprime el i de 0 a 4 excluyendo el 2 y el j se imprime de 0 a 4 por cada uno de los recorridos que hace el i");
         bucle1:
         for(int i = 0; i < 5; i++)
         {
