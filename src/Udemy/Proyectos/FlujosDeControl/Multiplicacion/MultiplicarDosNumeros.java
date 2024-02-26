@@ -1,18 +1,15 @@
 package Udemy.Proyectos.FlujosDeControl.Multiplicacion;
 
+import javax.swing.*;
 import java.util.Scanner;
 
-public class MultiplicarDosNumerosScanner
+public class MultiplicarDosNumeros
 {
     public static void main(String[] args)
     {
-        Scanner scanner =  new Scanner(System.in);
 
-        System.out.println("Ingrese el primer número");
-        int num1 = scanner.nextInt();
-
-        System.out.println("Ingrese el segundo número");
-        int num2 = scanner.nextInt();
+        int num1 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el primer número"));
+        int num2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el segundo numero"));
 
         int resultado = 0;
 
@@ -30,6 +27,6 @@ public class MultiplicarDosNumerosScanner
             resultado = - resultado;
         }
 
-        System.out.println("El resultado es: " + resultado);
+        JOptionPane.showMessageDialog(null, "El resultado es: " + resultado);
     }
 }
