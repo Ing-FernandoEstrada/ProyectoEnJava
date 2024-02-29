@@ -13,7 +13,6 @@ public class MenuDeOpciones
 
         do
         {
-
             Map<String, Integer> opciones = new HashMap<>();
 
             opciones.put("Actualizar", 1);
@@ -66,7 +65,3 @@ public class MenuDeOpciones
         JOptionPane.showMessageDialog(null, "Haz salido con exito!");
     }
 }
-
-
-
-
